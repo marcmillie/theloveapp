@@ -1,0 +1,92 @@
+.matchmaker {
+  text-align: center;
+  padding: 2rem;
+  background-color: #F9F9F9;
+}
+
+.match-card {
+  background-color: #E0E0CE;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+}
+
+.timer {
+  font-size: 1.5rem;
+  color: #AD343E;
+  margin-top: 1rem;
+}
+
+.timer-bar-container {
+  position: relative;
+  height: 20px;
+  background-color: #474747;
+  border-radius: 10px;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.timer-bar {
+  height: 100%;
+  background-color: #F2AF29;
+  transition: width 1s linear;
+}
+
+.timer-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: #000;
+}
+
+.decision-buttons button {
+  margin: 0 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.like-btn {
+  background-color: #F2AF29;
+  color: black;
+}
+
+.like-btn:hover {
+  background-color: #AD343E;
+  color: white;
+}
+
+.skip-btn {
+  background-color: #474747;
+  color: white;
+}
+
+.skip-btn:hover {
+  background-color: #AD343E;
+}
+
+.match-message {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  color: #AD343E;
+}
+
+.searching-message {
+  font-size: 1.5rem;
+  color: #AD343E;
+  text-align: center;
+  margin-top: 2rem;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.2; }
+  50% { opacity: 1; }
+  100% { opacity: 0.2; }
+}

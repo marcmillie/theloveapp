@@ -1,0 +1,12 @@
+.site-footer {
+  background-color: #AD343E; /* Deep red background */
+  color: #E0E0CE; /* Light cream text */
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 3rem;
+  border-top: 2px solid #F2AF29; /* Golden yellow accent line */
+}

@@ -1,0 +1,78 @@
+/* Container for the entire login form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #E0E0CE; /* Light cream background */
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Title at the top of the form */
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #AD343E; /* Deep red for the title */
+}
+
+/* Style for all input fields and dropdowns */
+.login-form input,
+.login-form select {
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #474747; /* Dark gray border */
+  background-color: white;
+  color: #000000; /* Black text */
+  font-size: 14px;
+}
+
+/* DOB input fields layout */
+.dob-section {
+  display: flex;
+  gap: 8px; /* Space between MM / DD / YYYY */
+  margin-bottom: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Label inside dob section */
+.dob-section label {
+  width: 100%;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+/* Submit button styling */
+.login-form button {
+  background: #F2AF29; /* Golden yellow */
+  color: #000000; /* Black text */
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+.login-form button:hover {
+  background: #AD343E; /* Deep red hover */
+  color: white;
+}
+
+.site-footer {
+  background-color: #AD343E; /* Deep red background */
+  color: #E0E0CE; /* Light cream text */
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 3rem;
+  border-top: 2px solid #F2AF29; /* Golden yellow accent line */
+}

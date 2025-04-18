@@ -1,9 +1,21 @@
-import './App.css'
+import React from "react";
+import Homepage from "./components/Homepage";
+import LoginForm from "./components/LoginForm";
+import Footer from "./components/Footer";
+import Matchmaker from "./components/Matchmaker";
 
-export default function App() {
+
+function App() {
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit
-    </main>
-  )
+    <div className="App">
+      <Homepage />
+      <div id="login">
+        <LoginForm />
+        <Matchmaker />
+      </div>
+      <Footer />
+    </div>
+  );
 }
+
+export default App;

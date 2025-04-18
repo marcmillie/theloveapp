@@ -1,0 +1,20 @@
+.preferences-container {
+  padding: 1rem;
+  background-color: #E0E0CE;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preferences-container h3 {
+  margin-bottom: 0.5rem;
+  color: #AD343E;
+}
+
+.preferences-container label {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
