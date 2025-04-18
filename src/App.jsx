@@ -1,21 +1,22 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import LoginForm from "./components/LoginForm";
-import Footer from "./components/Footer";
 import Matchmaker from "./components/Matchmaker";
+import Footer from "./components/Footer";
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Homepage />
-      <div id="login">
-        <LoginForm />
-        <Matchmaker />
-      </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/match" element={<Matchmaker />} />
+      </Routes>
       <Footer />
-    </div>
+    </>
   );
-}
+};
 
 export default App;

@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/Homepage.css";
+import { Link } from 'react-router-dom';
+
+
 
 const Homepage = () => {
   return (
@@ -8,6 +11,9 @@ const Homepage = () => {
         <h1>Welcome to Love and Loyalty</h1>
         <p>Fast-paced, real connections — 60 seconds at a time.</p>
         <a href="#login" className="cta-button">Get Started</a>
+        <Link to="/login">Login</Link>
+        <br />
+        <Link to="/match">Start Matching</Link>
       </section>
 
       <section className="how-it-works">

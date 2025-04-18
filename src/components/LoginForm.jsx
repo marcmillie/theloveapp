@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/LoginForm.css"; // Importing the CSS for styling
+import { Link } from "react-router-dom";
 
 const LoginForm = () => {
   // Setting up state to track form input values
@@ -107,6 +108,7 @@ const LoginForm = () => {
 
       {/* Submit Button */}
       <button type="submit">Sign Up</button>
+      <Link to="/login">Already have an account? Log in</Link>
     </form>
   );
 };
